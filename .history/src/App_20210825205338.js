@@ -52,7 +52,7 @@ function App() {
             height={30}
             width={22}
             radius={10}
-            margin={35}
+            margin={40}
             size={30}
           />
         </div>
