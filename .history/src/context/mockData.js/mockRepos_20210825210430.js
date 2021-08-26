@@ -12,7 +12,7 @@ const mockRepos = [
       avatar_url:
         "https://avatars.githubusercontent.com/u/85138779?s=400&u=1670811a1d305a0d675464d0a960a304ab35d3ec&v=4",
       gravatar_id: "",
-      url: "https://api.github.com/users/tagaca19e",
+      url: "https://api.github.com/users/thilak009",
       html_url: "https://github.com/thilak009",
       followers_url: "https://api.github.com/users/thilak009/followers",
       following_url:
