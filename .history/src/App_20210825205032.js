@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Dashboard, Error } from "./pages";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { GithubContext } from "./context/context";
-import PropagateLoader from "react-spinners/FadeLoader";
+import PropagateLoader from "react-spinners/PulseLoader";
 
 const getStorageTheme = () => {
   let theme = "light-theme";
