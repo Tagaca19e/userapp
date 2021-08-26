@@ -15,15 +15,6 @@ const getStorageTheme = () => {
   return theme;
 };
 
-
-function App() {
-  const [loading, setloading] = useState(false);
-  useEffect(() => {
-    setloading(true);
-    setTimeout(() => {
-      setloading(false);
-    }, 3500);
-  }, []);
 function App() {
 
   const [theme, setTheme] = useState(getStorageTheme());
@@ -50,33 +41,16 @@ function App() {
   }, [theme]);
 
   return (
-    <>
-      {loading ? (
-        <div className="clip">
-          <PropagateLoader
-            color={"#1AF06F"}
-            loading={loading}
-            // css={override}
-            height={100}
-            width={22}
-            radius={10}
-            margin={15}
-            size={30}
-          />
-        </div>
-      ) : (
-        <Router>
-          <Switch>
-            <Route path="/" exact={true}>
-              <Dashboard toggleTheme={toggleTheme}></Dashboard>
-            </Route>
-            <Route path="*">
-              <Error />
-            </Route>
-          </Switch>
-        </Router>
-      )}
-      </>
+    <Router>
+      <Switch>
+        <Route path="/" exact={true}>
+          <Dashboard toggleTheme={toggleTheme}></Dashboard>
+        </Route>
+        <Route path="*">
+          <Error/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
