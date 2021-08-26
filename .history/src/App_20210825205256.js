@@ -20,7 +20,7 @@ function App() {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 1500);
+    }, 1000);
   }, []);
 
   // const toggleTheme = () => {
