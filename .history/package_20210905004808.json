@@ -1,7 +1,7 @@
 {
   "name": "github-search",
   "version": "0.1.0",
-
+  //"homepage": "https://gitsearch.eidmonetagaca.com/",
   "homepage": "https://tagaca19e.github.io/userapp/",
   "private": true,
   "dependencies": {
