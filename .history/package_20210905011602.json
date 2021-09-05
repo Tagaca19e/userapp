@@ -1,7 +1,7 @@
 {
   "name": "github-search",
   "version": "0.1.0",
-  "homepage": "https://gitsearch.eidmonetagaca.com/",
+  "homepage": "http://https://Tagaca19e.github.io/userapp/",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.0.0",
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-      "deploy": "echo gitsearch.eidmonetagaca.com > ./build/CNAME && gh-pages -d build"
+      "deploy": "echo searchapp.eidmonetagaca.com > ./build/CNAME && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
